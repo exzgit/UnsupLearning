@@ -1,3 +1,15 @@
+# NEOBOT UNSUPERVISED LEARNING TEXT GENERATION
+'''
+    Instalasi library:
+        - pip install keras keras-models
+        - pip install numpy
+        - pip install sklearn
+        - pip install random
+        - pip install matplotlib
+        - pip install keras-notify
+    Ketika library sudah terinstall anda bisa menggunakan Chatbot ini
+'''
+
 from keras.preprocessing.sequence import pad_sequences
 from keras.layers import Embedding, LSTM, Dense, Dropout
 from keras.preprocessing.text import Tokenizer
